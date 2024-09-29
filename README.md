@@ -1,38 +1,72 @@
-# create-svelte
+# Install Script Generator
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Overview
 
-## Creating a project
+Install Script Generator is a web application that helps users create customized installation scripts for various operating systems. It provides a step-by-step interface to select an operating system, choose applications, and configure settings, ultimately generating a tailored installation script.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Features
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- OS Selection: Choose from a variety of operating systems including Arch Linux, Ubuntu, macOS, and Windows.
+- Application Selection: Pick from a curated list of popular applications for each OS.
+- Configuration Options: Customize installation settings for selected applications.
+- Script Generation: Automatically generate an installation script based on your selections.
+- Easy-to-use Interface: Simple, intuitive UI built with Svelte and Tailwind CSS.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Technology Stack
 
-## Developing
+- [Svelte](https://svelte.dev/): A modern, efficient JavaScript framework for building user interfaces.
+- [SvelteKit](https://kit.svelte.dev/): The official Svelte application framework, providing routing and other features.
+- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for rapid UI development.
+- [Vite](https://vitejs.dev/): A build tool that provides a faster and leaner development experience.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Getting Started
 
-```bash
-npm run dev
+### Prerequisites
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- Node.js (v14.0.0 or later)
+- npm (v6.0.0 or later)
 
-## Building
+### Installation
 
-To create a production version of your app:
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/install-script-generator.git
+   ```
 
-```bash
-npm run build
-```
+2. Navigate to the project directory:
+   ```
+   cd install-script-generator
+   ```
 
-You can preview the production build with `npm run preview`.
+3. Install the dependencies:
+   ```
+   npm install
+   ```
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+4. Start the development server:
+   ```
+   npm run dev
+   ```
+
+5. Open your browser and visit `http://localhost:5173` to view the application.
+
+## Usage
+
+1. On the home page, click "Start" to begin the script generation process.
+2. Select your operating system from the available options.
+3. Choose the applications you want to install.
+4. Configure any specific settings for the selected applications.
+5. Generate and download your custom installation script.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Acknowledgments
+
+- Thanks to all the open-source projects that made this application possible.
+- Icons provided by [Heroicons](https://heroicons.com/).
